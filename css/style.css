@@ -1,0 +1,83 @@
+body {
+  background-color: #273C4C;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+p, div, img, form {
+  background-color: #4682B4;
+  margin: 20px;
+  text-align: center;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-left: 2px solid #4169E1;
+  border-right: 1px solid #4169E1;
+  background-color: #4169E1;
+}
+
+li:hover {
+  background-color: #8A2BE2;
+  border-style: none;
+}
+
+h1 {
+  margin-left: 200px;
+}
+
+table {
+  background-color: #4682B4;
+  border: 2px;
+  border-color: black;
+  margin: 20px;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+  margin: auto;
+  display: block;
+  /* margin: 15px 0px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px #1E90FF;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px 4px;
+}
+
+button:active{
+  background-color: #8A2BE2;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px blue;
+}
+
+.clm1 {
+  width: 20%;
+  text-align: left;
+}
+
+.clm2 {
+  width: 80%;
+  text-align: left;
+}
